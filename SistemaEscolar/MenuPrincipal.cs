@@ -38,15 +38,20 @@ namespace SistemaEscolar
 
         private void profesoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           //AbrirFormulario(new FormProfesores());
+           AbrirFormulario(new FormProfesores());
         }
 
         private void cursosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //AbrirFormulario(new FormCursos());
+            AbrirFormulario(new FormCursos());
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void MenuPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }

@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexionBD.cs" />
+    <Compile Include="FormCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCursos.Designer.cs">
+      <DependentUpon>FormCursos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormEstudiantes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,12 @@
     </Compile>
     <Compile Include="FormInscripciones.Designer.cs">
       <DependentUpon>FormInscripciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfesores.Designer.cs">
+      <DependentUpon>FormProfesores.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -75,11 +87,17 @@
     <Compile Include="Modelos\EstudianteDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCursos.resx">
+      <DependentUpon>FormCursos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormEstudiantes.resx">
       <DependentUpon>FormEstudiantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInscripciones.resx">
       <DependentUpon>FormInscripciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfesores.resx">
+      <DependentUpon>FormProfesores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

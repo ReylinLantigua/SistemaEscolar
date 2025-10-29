@@ -43,5 +43,12 @@ namespace SistemaEscolar
         {
             txtContraseña.UseSystemPasswordChar = !chkMostrar.Checked;
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+     
     }
 }
